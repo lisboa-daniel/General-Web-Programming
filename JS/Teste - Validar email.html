@@ -1,0 +1,38 @@
+<html>
+<head>
+<title> Teste Formulario 1 </title>
+<script language="javascript">
+function validaEmail(){
+	email = document.cad.email.value;
+	if ( (email.lenght < 8) ||
+		 (email.indexOf (" ") != -1) ||
+		 (email.indexOf ("..") != -1) ||
+		 (email.indexOf (".@") != -1) ||
+		 (email.indexOf ("@.") != -1) ||
+		 (email.indexOf ("@") < 2) ||
+		 (email.indexOf ("@") != email.lastIndexOf("@")) ||
+		 (email.indexOf (".",email.indexOf("@")) < email.indexOf("@") + 3) ||
+		 (email.lastIndexOf (".") > email.lenght -3 ) ||
+		 (email.indexOf (".") == 0)
+		)
+	{
+		 alert("Ops... Este e-mail parece ser inválido");
+		 document.cad.email.value = "";
+		 return false;
+		 }else
+		 {
+			alert("Email Valido, dados Enviados com Sucesso!");
+			return true;
+		 }	
+}
+ 
+</script>
+</head>
+<body>
+<form name="cad"  action="#" onsubmit="return validaEmail()" >
+Email:<input type="text" name="email"> <br>
+	<input type="submit" name="submit" value="Enviar">
+</form>
+</body>
+
+</html>

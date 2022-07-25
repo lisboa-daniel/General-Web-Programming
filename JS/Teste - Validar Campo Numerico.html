@@ -1,0 +1,29 @@
+<html>
+<head>
+<title> Teste Formulario Campo Númerico </title>
+<script language="javascript">
+function validaNumerico(){
+if(document.form.ra.value==""){
+window.alert("Campo requerido");
+document.form.ra.focus();
+return false;
+}else if (isNaN (document.form.ra.value)) {
+window.alert("Digite apenas numeros no Ra");
+document.form.ra.value="";
+document.form.ra.focus();
+return false;
+}else{
+ window.alert("Dados enviados com sucesso!");
+ return true;
+ }
+ }
+</script>
+</head>
+<body>
+<form name="form"  action="#" onsubmit="return validaNumerico()" >
+Usuario Ra:<input type="text" name="ra" maxlength="20"> <br>
+	<input type="submit" name="submit" value="Inserir">
+</form>
+</body>
+
+</html>

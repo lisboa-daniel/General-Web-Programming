@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+#area
+{
+    position: relative;
+    left: 37%;
+    top: 29%;
+    width: 320px;
+    height: 270px;
+
+}
+
+#area #formulario
+{
+    position:absolute;
+    display:block;
+}
+
+fieldset
+{
+    width:300px;
+    height:250px;
+    background-color: rgb(70, 69, 69);
+}
+
+legend
+{
+    font-style: bold;
+    font-family: "Segoe UI", "Arial","Times New Roman";
+    
+}
+
+#formulario label
+{
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+}
+
+#formulario input.campo_nome
+{
+    position: absolute;
+    left: 95px;
+    top: 23px;
+    width: 225px;
+    background-color: lightgray;
+    border: 3px solid rgb(129, 129, 129);
+    border-radius: 9px;
+}
+
+#formulario input.campo_email
+{
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+    background-color: lightgray;
+    border: 3px solid rgb(129, 129, 129);
+    border-radius: 9px;
+}
+
+#formulario input.btn_submit
+{
+    border-style: dashed;
+    position: absolute;
+    bottom: 0.5em;
+    right:10px;
+    background-color: rgb(9, 227, 243);
+    border-radius: 12px;
+    border: 3px solid rgb(11, 159, 196);;
+}
+
+#formulario textarea.msg
+{
+    position:absolute;
+    margin: 0px; width: 301px; height: 143px;
+    background-color: rgb(176, 247, 223);
+}

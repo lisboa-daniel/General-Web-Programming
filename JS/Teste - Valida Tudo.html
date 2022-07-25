@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> Validando Formulário </title>
+		
+		<script type="text/javascript">
+		function validacao()
+		{
+			var formulario = document.forms["cadastro"];
+			var nome = formulario.nome.value;
+			var cpf = formulario.cpf.value;
+			var sexo = formulario.sexo.value;
+
+			var erro = false;
+			if (nome.indexOf(" ")) == -1)
+			{
+				alert("O Campo nome não pode estar vazio");
+				erro = true;
+			}
+
+			if (cpf.length != 11)
+			{
+				alert("Preencha o cpf");
+				erro = true;
+			}
+
+			if (erro) 
+			{
+				return false;
+			}
+			else
+			{
+				return true;
+			}
+
+			console.log(erro);
+		}
+
+		</script>
+
+	</head>
+
+	<body>
+		<form name="cadastro" action="#" method="post" onsubmit="return validacao()">
+
+		<label> Nome </label>
+		<input type="text" name="nome" placeholder="Nome"><br>
+		<label> CPF </label>
+		<input type="number" name="cpf" placeholder="CPF"><br>
+		<label> Sexo  :</label>
+		<label> Masculino </label>
+		<input type="radio" name="sexo" value="m" checked="true">
+		<label> Feminino </label>
+		<input type="radio" name="sexo" value="f"><br>
+		<input type="submit" name="enviar" value="Enviar">
+		</form>
+	
+	</body>
+
+</html>

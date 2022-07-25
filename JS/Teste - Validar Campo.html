@@ -1,0 +1,29 @@
+<html>
+<head>
+<title> Teste Formulario 1 </title>
+<script language="javascript">
+<!--
+function validaVazio()
+{
+	if (document.teste.nome.value == "")
+	{
+		window.alert("Campo Requerido");
+		return false;
+	}
+	else
+	{
+		window.alert("Dados Enviados com sucesso");
+		return true;
+	}
+}
+
+</script>
+</head>
+<body>
+<form name="teste" method="get" acion="#" onsubmit="return validaVazio()" >
+Nome:<input type="text" name="nome" maxlength="50"> <br>
+	<input type="submit" name="submit" value="Inserir">
+</form>
+</body>
+
+</html>

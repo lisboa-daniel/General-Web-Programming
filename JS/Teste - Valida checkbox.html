@@ -1,0 +1,52 @@
+<html>
+<head>
+<title> Teste Formulario com checkbox </title>
+<script language="javascript">
+
+	  
+    function Validate(form)
+    {
+
+		var preencheu = false;
+    
+		if (form.desenvolvimento.checked)
+		{
+	    	preencheu = true;
+		}
+
+		if (form.design.checked)
+		{
+	       preencheu = true;
+		}
+
+		if (form.asduas.checked)
+		{
+			preencheu = true;
+		}
+
+		if (preencheu)
+		{
+	    	form.submit();
+			window.alert("Enviado com sucesso");
+		}
+		else
+		{
+	 		alert("È necessario escolher uma opção.");
+		}
+	}
+ 
+</script>
+</head>
+<body>
+<form name="dados"  action="#" method="get" >
+ Sobre que assuntos deseja receber dicas ?<br>
+       <input type="checkbox" name="desenvolvimento">&nbsp;Desenvolvimento <br>
+	   <input type="checkbox" name="design">&nbsp;Design <br>
+	   <input type="checkbox" name="asduas">&nbsp;Ambos/Nenhum <br>
+	   <input type="button" value="Enviar" onClick="Validate(this.form)">
+	   
+	   
+</form>
+</body>
+
+</html>

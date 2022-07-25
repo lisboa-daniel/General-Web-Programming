@@ -1,0 +1,49 @@
+ body
+ {
+ 	background-color: black; color: white;
+ 	font-size: 10pt;
+ 	font-family: 'Mansalva', cursive;
+ 	overflow: hidden;
+
+ }
+
+ a:link
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: white;
+}
+
+a:hover
+{
+	color: #AD1E1E;
+}
+
+a:active
+{
+	color: #AD1E1E;
+}
+
+table
+{
+	border: 1px; 
+	width:600px; 
+	height: 100%;  
+	font-size: 30;
+}
+
+
+img:hover 
+{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+img:active 
+{
+	opacity: 1;
+}
