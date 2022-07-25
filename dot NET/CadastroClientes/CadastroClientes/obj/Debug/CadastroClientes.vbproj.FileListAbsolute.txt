@@ -1,0 +1,13 @@
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\bin\Debug\DbClientes.accdb
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.exe.config
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.exe
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.pdb
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\bin\Debug\CadastroClientes.xml
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.vbprojAssemblyReference.cache
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.Form1.resources
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.Resources.resources
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.vbproj.GenerateResource.cache
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.vbproj.CoreCompileInputs.cache
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.exe
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.xml
+C:\Users\Daniel Lisboa\Desktop\CadastroClientes\CadastroClientes\obj\Debug\CadastroClientes.pdb
