@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #191A21; 
+}
+
+.container{
+    width: 40%;
+    left: 50%;
+    background: #21222C;
+    border-radius: 10px;
+    min-width: 450px;
+    min-height: 240px;
+    position: absolute;
+    transform: translate(-50%,50%);
+    
+}
+
+#newtask{
+    position: aboslute;
+    padding: 30px 20px;
+}
+
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    background-color: #282A36;
+    color: #55618B;
+    font-weight: 500;
+
+    border-radius: 5px;
+    font-family: Jetbrains Mono;
+    font-size: 16px;
+    border: none;
+}
+
+#newtask input:focus{
+    outline: none;
+    border: 1px solid;
+    border-color: #55618B;
+}
+
+#newtask button{
+    transition: 850ms ease-out;
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    height: 45px;
+    color: #f3f3f3;
+    background-color: #FF79C6;
+    outline: none;
+    width: 15%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: Jetbrains Mono;
+    cursor: pointer;
+    
+}
+
+#newtask button:hover{
+    transition: 850ms ease-out;
+    background-color: #48C3CF;
+}
+
+#tasks{
+    overflow: auto;
+    max-height: 240px;
+    border-radius: 10px;
+    font-family: Jetbrains Mono;
+    width: 100%;
+    min-height: 240px;
+    position: relative;
+    background-color: #282A36;
+    color: #55618B;
+    padding: 30px 20px;
+    border-radius: 10px;
+    
+
+}
+
+
+.task{
+    transition: 850ms ease-out;
+    font-family: Jetbrains Mono;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    cursor: pointer;
+    animation: 350ms ease; 
+    background-color: #282A36;
+    color: #55618B;
+    border-color: #55618B;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+.task:hover{
+    transition: 850ms ease-out;
+    background-color: #55618B;
+    color: #f3f3f3;
+    border-color: #f3f3f3; 
+}
+.task span{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Jetbrains Mono;
+}
+
+.task button:hover{
+    transition: 850ms ease-out;
+    background-color: #48C3CF;
+}
+
+.task button{
+    transition: 850ms ease-out;
+    transition-property: background-color;
+    background-color: #FF79C6;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+}
