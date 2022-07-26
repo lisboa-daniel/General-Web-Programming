@@ -1,0 +1,15 @@
+C:\VSProjects\MangaListAPI\Tracking\bin\Debug\net6.0\Tracking.exe
+C:\VSProjects\MangaListAPI\Tracking\bin\Debug\net6.0\Tracking.deps.json
+C:\VSProjects\MangaListAPI\Tracking\bin\Debug\net6.0\Tracking.runtimeconfig.json
+C:\VSProjects\MangaListAPI\Tracking\bin\Debug\net6.0\Tracking.dll
+C:\VSProjects\MangaListAPI\Tracking\bin\Debug\net6.0\Tracking.pdb
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\Tracking.csproj.AssemblyReference.cache
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\Tracking.GeneratedMSBuildEditorConfig.editorconfig
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\Tracking.AssemblyInfoInputs.cache
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\Tracking.AssemblyInfo.cs
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\Tracking.csproj.CoreCompileInputs.cache
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\Tracking.dll
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\refint\Tracking.dll
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\Tracking.pdb
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\Tracking.genruntimeconfig.cache
+C:\VSProjects\MangaListAPI\Tracking\obj\Debug\net6.0\ref\Tracking.dll
